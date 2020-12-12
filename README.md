@@ -33,3 +33,14 @@ Steps that we'll take:
 2. 15min: Layout of the project, intro to JS
 3. 30min: Write the game logic and guessing history
 4. 30min: Styling, Q&A
+
+## Important DOM Concepts
+
+- html attributes, including `id` vs `class` and `type="number"`
+- Finding an element with `document.getElementById`
+- Creating a new element with `document.createElement`
+- DOM event handlers, including `document.addEventListener`
+- Adding children elements with `element.appendChild`
+- Getting and setting with `element.innerText` and `element.value`
+- Adding a CSS class with `element.classList.add`
+- Stopping form submission default behavior with `event.preventDefault`
