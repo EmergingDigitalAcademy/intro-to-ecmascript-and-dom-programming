@@ -2,12 +2,12 @@ body {
    background-color: rgb(57, 0, 59);
    color: #fff;
    padding: 2% 10%;
-   transition: background-color 2s;
 }
 
 h1, h2, h3 {
    color: rgb(255, 81, 0);
 }
+
 button {
    border: none;
    padding: 10px;
@@ -18,17 +18,4 @@ input {
    padding: 10px;
    border-radius: 10px;
    outline: none;
-}
-
-/********* Update the styles for winning game!! /**********/
-/* Update the background color of the tagged winning body */
-body#game-body.winner {
-   background-color: rgb(0, 180, 0);
-}
-
-body#game-body.winner h1, 
-body#game-body.winner h2,
-body#game-body.winner h3 {
-   /* Update the header colors inside a tagged winning body */
-   color: rgb(150, 0, 0);
 }

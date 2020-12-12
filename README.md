@@ -26,3 +26,10 @@ for the page (colors, padding, etc)
 
 No installation needed, just open `index.html` in a browser and get
 to work!
+
+Steps that we'll take:
+
+1. 15min: Review & Intro of the DOM
+2. 15min: Layout of the project, intro to JS
+3. 30min: Write the game logic and guessing history
+4. 30min: Styling, Q&A
