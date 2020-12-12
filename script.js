@@ -1,4 +1,16 @@
+// arrow functions! an arrow function is technically an anonymous function
+// that gets assigned into a javascript variable. Structure looks like this:
+// v--- functions can be stored in javascript variables so we can call them later by name
+//                  v-- arguments are listed in the parenthesis. 
+//                       v-- "fat arrow" syntax is how we create "arrow" functions
+//                           v---- curly braces start the code block
 const onSubmit = (event) => {
+   // the `event` argument is a famous pattern in browser programming. Every
+   // 'browser event' creates an object that has a ton of information in it,
+   // like what element dispatched the event (button, input, etc), the
+   // timestamp of the event creation, and more. The browser gives it to us
+   // for free, as long as we ask for it as the first argument of the function
+
    // Using form submit gives us the advantage of being able to submit
    // by pressing 'enter' and html5 validation, but by default the 
    // page will refresh due to legacy reasons. We can prevent this
@@ -16,7 +28,15 @@ const onSubmit = (event) => {
    // Check the result! Make an empty string and update it to whatever
    // we will want to display to the user.
    let result = '';
+   // less-than and greater-than return a Boolean value, true or false. 
+   // The 'if' statement will run the code block that follows the first
+   // comparison that returns 'true'. If none return true, then the 'else'
+   // will run instead. If there is no 'else', the program continues without
+   // running any of the code blocks in the if-statement.
    if (currentGuess > correctNumber) { // too high
+      // backticks are used to create 'string templates', meaning we can
+      // use ${} syntax to run javascript expressions. We use it here
+      // to insert the content of our `currentGuess` variable
       result = `Your guess was ${currentGuess}, and it is too high!`;
    } else if (currentGuess < correctNumber) { // too low
       result = `Your guess was ${currentGuess}, and it is too low!`;
@@ -54,7 +74,9 @@ const onSubmit = (event) => {
    document.getElementById('guess-input').value = '';
 }
 
-// When the form is submitted, call our onSubmit function
+// When the form is submitted, an event of the type 'submit' is emitted
+// We can capture this event by adding a listener, and asking the browser
+// to call our onSubmit function when the 'submit' event is detected
 document.getElementById('game-form').addEventListener('submit', onSubmit);
 
 // Start the game. Math.random()*X will be from 0 to X, non-inclusive
