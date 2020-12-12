@@ -12,6 +12,7 @@ game. Some concepts that we'll cover:
     - data types: strings, numbers, integers, booleans
     - `let` and `const`
     - `forEach` loops
+    - String templates (backtick format)
     - arrow functions and anonymous functions
     - function arguments
     - global variables
