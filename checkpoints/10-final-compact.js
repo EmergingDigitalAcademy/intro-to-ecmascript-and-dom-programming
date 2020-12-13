@@ -10,6 +10,8 @@ const onSubmit = (event) => {
    } else if (currentGuess < correctNumber) {
       result = `Your guess was ${currentGuess}, and it is too low!`;
    } else { 
+      const audio = new Audio('./party_horn.mp3');
+      audio.play();
       document.getElementById('game-body').classList.add('winner');
       result = `Your guess was ${currentGuess}, and it is correct!`;
    }
