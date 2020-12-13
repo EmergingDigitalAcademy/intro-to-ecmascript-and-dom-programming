@@ -26,3 +26,4 @@ for the page (colors, padding, etc)
 
 No installation needed, just open `index.html` in a browser and get
 to work!
+

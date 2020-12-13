@@ -44,11 +44,6 @@ const onSubmit = (event) => {
       // Add a 'winner' class to the body element that we can make pretty
       // using CSS
       document.getElementById('game-body').classList.add('winner');
-
-      // Initialize an Audio object and play it!
-      const audio = new Audio('./party_horn.mp3');
-      audio.play();
-
       result = `Your guess was ${currentGuess}, and it is correct!`;
    }
 
