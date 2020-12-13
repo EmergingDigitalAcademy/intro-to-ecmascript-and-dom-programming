@@ -46,6 +46,7 @@ const onSubmit = (event) => {
       document.getElementById('game-body').classList.add('winner');
 
       // Initialize an Audio object and play it!
+      // Party horn from: http://soundbible.com/1817-Party-Horn.html
       const audio = new Audio('./party_horn.mp3');
       audio.play();
 

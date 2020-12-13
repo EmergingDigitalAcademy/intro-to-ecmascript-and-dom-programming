@@ -2,6 +2,7 @@
    Milestone 4: 
       - When the players wins, tag the <body> with a special class so 
          we can celebrate with CSS!
+      - Play a sound clip of a little party horn :) 
 */
 const onSubmit = (event) => {
    event.preventDefault();
@@ -18,6 +19,12 @@ const onSubmit = (event) => {
       // Add a 'winner' class to the <body> tag which we can use
       // CSS and css transitions to make the page pop!
       document.getElementById('game-body').classList.add('winner');
+
+      // Initialize an Audio object and play it!
+      // Party horn from: http://soundbible.com/1817-Party-Horn.html
+      const audio = new Audio('./party_horn.mp3');
+      audio.play();
+
       result = `Your guess was ${currentGuess}, and it is correct!`;
    }
    guesses.push(result);
