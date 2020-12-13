@@ -41,9 +41,14 @@ const onSubmit = (event) => {
    } else if (currentGuess < correctNumber) { // too low
       result = `Your guess was ${currentGuess}, and it is too low!`;
    } else { // nailed it!
-      // Add a 'winner' class to the body element that we can make pretty
-      // using CSS
+      // Add a 'winner' class to the <body> tag which we can use
+      // CSS and css transitions to make the page pop!
       document.getElementById('game-body').classList.add('winner');
+
+      // Initialize an Audio object and play it!
+      // Party horn from: http://soundbible.com/1817-Party-Horn.html
+      const audio = new Audio('./party_horn.mp3');
+      audio.play();
       result = `Your guess was ${currentGuess}, and it is correct!`;
    }
 
