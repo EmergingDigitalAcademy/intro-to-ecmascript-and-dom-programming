@@ -17,7 +17,9 @@ game. Some concepts that we'll cover:
     - function arguments
     - global variables
     - `console.log` for debugging
-    - `Math.random()` for random number generation
+    - `Math.random()` for random number generation, 
+    - `Math.floor` for integer conversion
+    - `new Audio(url)` to play browser audio from url
     - using the `document` API for working with the DOM directly
 
 `index.html` contains the game html elements, `script.js` will
