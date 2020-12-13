@@ -19,8 +19,6 @@ input {
    border-radius: 10px;
    outline: none;
 }
-<<<<<<< HEAD
-=======
 
 /********* Update the styles for winning game!! /**********/
 /* Update the background color of the tagged winning body */
@@ -46,4 +44,3 @@ h1, h2, h3 {
 body {
    transition: background-color 2s;
 }
->>>>>>> solution
