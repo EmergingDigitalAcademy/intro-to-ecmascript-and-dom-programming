@@ -47,4 +47,4 @@ Steps that we'll take:
 - Adding a CSS class with `element.classList.add`
 - Stopping form submission default behavior with `event.preventDefault`
 
-Parth Horn source: http://soundbible.com/1817-Party-Horn.html
+Party Horn source: http://soundbible.com/1817-Party-Horn.html
