@@ -36,6 +36,14 @@ Steps that we'll take:
 3. 30min: Write the game logic and guessing history
 4. 30min: Styling, Q&A
 
+## Teaching the class
+
+- checkpoints/ folder has milestones.
+- checkpoints/10-final-compact.js is the solution w/o comments
+- checkpoints/10-final-with-comments.js is the solution, well commented
+- checkpoints/11-final-style.css is a final stylesheet to use (just has
+  a few things uncommented)
+
 ## Important DOM Concepts
 
 - html attributes, including `id` vs `class` and `type="number"`
