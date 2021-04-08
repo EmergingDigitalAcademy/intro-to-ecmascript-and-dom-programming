@@ -38,10 +38,10 @@ Steps that we'll take:
 
 ## Teaching the class
 
-- checkpoints/ folder has milestones.
-- checkpoints/10-final-compact.js is the solution w/o comments
-- checkpoints/10-final-with-comments.js is the solution, well commented
-- checkpoints/11-final-style.css is a final stylesheet to use (just has
+- `checkpoints/` folder has milestones.
+- `checkpoints/10-final-compact.js` is the solution w/o comments
+- `checkpoints/10-final-with-comments.js` is the solution, well commented
+- `checkpoints/11-final-style.css` is a final stylesheet to use (just has
   a few things uncommented)
 
 ## Important DOM Concepts
